@@ -51,7 +51,7 @@ function Home() {
                 title="Accessories"
                 description=""
                 backgroundImg="accessories.jpg"
-                leftBtnText="Shop now "
+                leftBtnText="Shop now"
             />
         </Container>
     );
