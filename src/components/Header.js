@@ -23,7 +23,7 @@ function Header() {
             </Menu>
             <RightMenu>
                 <a href="#">Shop</a>
-                <a href="#">Tesla Account</a>
+                <a href="#">Account</a>
                 <CustomMenu onClick={() => setBurgerStatus(true)} />
             </RightMenu>
             <BurgerNav show={burgerStatus}>
@@ -49,7 +49,7 @@ function Header() {
                     <a href="#">Cybertruck</a>
                 </li>
                 <li>
-                    <a href="#">Roadaster</a>
+                    <a href="#">Roadster</a>
                 </li>
             </BurgerNav>
         </Container>
