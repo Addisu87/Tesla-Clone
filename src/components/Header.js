@@ -60,7 +60,7 @@ export default Header;
 
 const Container = styled.div`
     min-height: 60px;
-    postition: fixed;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -116,7 +116,7 @@ const BurgerNav = styled.div`
     display: flex;
     flex-direction: column;
     text-align: start;
-    tramsform: ${(props) =>
+    transform: ${(props) =>
         props.show ? "translateX(0)" : "translateX(100%)"};
     transition: transform 0.2s;
     li {
